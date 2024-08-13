@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:8折", "1:8折", "2:8折", "3:8折", "4:8折", "5:8折", "6:8折", "7:8折", "8:8折", "9:8折", "223:8折", "224:8折", "225:8折", "226:8折", "227:8折", "228:8折", "229:8折", "230:8折", "231:8折", "232:8折" ],
+  "namingTask" : {
+    "fieldName" : "折扣",
+    "datasetName" : "鲜花销售数据集",
+    "analysis" : {
+      "formatAnalysis" : "所有样本值均为'8折'，格式一致，符合预期。",
+      "contentAnalysis" : "内容均为'8折'，表示所有商品均以八折销售。",
+      "contextVerification" : "上下文信息中多次提到'售价'和'微信扫码下单'，与折扣信息相符。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据格式一致，无格式异常。",
+      "contentAnalysis" : "内容均为'8折'，无内容异常。",
+      "contextVerification" : "上下文信息支持'8折'的折扣信息，无异常。",
+      "otherAnalysis" : "无其他异常。"
+    }
+  }
+}

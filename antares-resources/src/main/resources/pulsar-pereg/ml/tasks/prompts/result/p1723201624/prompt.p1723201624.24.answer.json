@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:回顶部", "1:回顶部", "2:回顶部", "3:回顶部", "4:回顶部", "5:回顶部", "6:回顶部", "7:回顶部", "8:回顶部", "9:回顶部", "230:回顶部", "231:回顶部", "232:回顶部", "233:回顶部", "234:回顶部", "235:回顶部", "236:回顶部", "237:回顶部", "238:回顶部", "239:回顶部" ],
+  "namingTask" : {
+    "fieldName" : "导航链接",
+    "datasetName" : "网页DOM元素文本内容",
+    "analysis" : {
+      "formatAnalysis" : "该列数据均为‘回顶部’，推测为网页中的导航链接，用于返回页面顶部。",
+      "contentAnalysis" : "内容单一，均为‘回顶部’，符合导航链接的特征。",
+      "contextVerification" : "结合上下文信息，该列数据位于每行数据的开头，符合导航链接在网页中的位置。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据格式一致，无格式异常。",
+      "contentAnalysis" : "内容均为‘回顶部’，无内容异常。",
+      "contextVerification" : "上下文一致，无异常。",
+      "otherAnalysis" : "无其他异常。"
+    }
+  }
+}

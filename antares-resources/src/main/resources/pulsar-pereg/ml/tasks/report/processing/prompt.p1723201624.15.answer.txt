@@ -1,0 +1,33 @@
+```json
+{
+  "samples": [
+    "0:尤加利若干支枝",
+    "1:尤加利叶若干枝",
+    "2:卡布奇诺8枝",
+    "3:喷泉草2枝",
+    "4:小盼草3枝（没有可用其他线条草或叶材）",
+    "5:白玫瑰12枝（总共52枝）",
+    "6:尤加利若干支枝",
+    "7:小盼草4枝（没有可用其他线条草或叶材）"
+  ],
+  "namingTask": {
+    "fieldName": "花材名称",
+    "datasetName": "网页花艺设计数据集",
+    "analysis": {
+      "formatAnalysis": "第二列数据主要包含花材的名称和数量，格式为文本和数字的组合。",
+      "contentAnalysis": "数据内容涉及多种花材及其数量，符合花艺设计的需求。",
+      "contextVerification": "数据集中的其他列提供了花材的详细描述和包装信息，验证了花材名称的准确性。",
+      "otherAnalysis": "无其他特殊分析。"
+    }
+  },
+  "outliersDetection": {
+    "outliers": [],
+    "analysis": {
+      "formatAnalysis": "所有数据值均符合预期的文本和数字组合格式。",
+      "contentAnalysis": "数据内容与花材名称和数量相符，无异常内容。",
+      "contextVerification": "上下文信息支持所有数据值的有效性。",
+      "otherAnalysis": "无其他异常发现。"
+    }
+  }
+}
+```

@@ -1,0 +1,19 @@
+"naming_task": {
+    "field_name": "价格",
+    "dataset_name": "鲜花价格数据集",
+    "analysis": {
+      "format_analysis": "第二列数据主要为价格信息，格式为货币符号加数字，如'￥618'。",
+      "content_analysis": "数据内容主要涉及各种鲜花的价格，与鲜花名称和描述相关联。",
+      "context_verification": "价格信息与鲜花描述和包装细节相匹配，符合商业销售上下文。",
+      "other_analysis": "数据集提供了屏幕位置、元素尺寸等额外信息，有助于进一步分析用户界面设计。"
+    }
+  },
+  "outliers_detection": {
+    "outliers": "65	￥8266",
+    "analysis": {
+      "format_analysis": "大多数价格在￥165到￥888之间，￥8266明显高于其他价格。",
+      "content_analysis": "￥8266对应的产品描述为'绚烂极光/欧若拉玫瑰33枝抱抱桶'，可能是高端或特殊定制产品。",
+      "context_verification": "在鲜花销售中，高价可能对应特殊或限量版产品，但需进一步验证其合理性。",
+      "other_analysis": "考虑到数据集的整体价格范围，￥8266应被视为潜在的异常值，需进一步调查其背后的原因。"
+    }
+  }

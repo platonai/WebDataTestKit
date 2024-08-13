@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:材料", "1:材料", "2:材料", "3:材料", "4:材料", "5:材料", "6:材料", "7:材料", "8:材料", "9:材料", "223:材料", "224:材料", "225:材料", "226:材料", "227:材料", "228:材料", "229:材料", "230:材料", "231:材料", "232:材料" ],
+  "namingTask" : {
+    "fieldName" : "材料",
+    "datasetName" : "鲜花销售数据集",
+    "analysis" : {
+      "formatAnalysis" : "第二列的数据格式一致，均为文本类型。",
+      "contentAnalysis" : "内容主要描述鲜花的材料组成，符合字段名称‘材料’。",
+      "contextVerification" : "数据集中的其他列提供了鲜花的销售情况、花语等信息，与‘材料’字段内容相符。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据值均为文本格式，符合预期。",
+      "contentAnalysis" : "内容均为描述鲜花的材料，无异常内容。",
+      "contextVerification" : "上下文信息支持‘材料’字段的正确性，无异常。",
+      "otherAnalysis" : "无其他异常发现。"
+    }
+  }
+}

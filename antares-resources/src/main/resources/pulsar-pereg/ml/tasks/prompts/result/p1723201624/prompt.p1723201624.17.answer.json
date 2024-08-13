@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:件", "1:件", "2:件", "3:件", "4:件", "5:件", "6:件", "7:件", "8:件", "9:件", "224:件", "225:件", "226:件", "227:件", "228:件", "229:件", "230:件", "231:件", "232:件", "233:件" ],
+  "namingTask" : {
+    "fieldName" : "单位",
+    "datasetName" : "鲜花销售数据集",
+    "analysis" : {
+      "formatAnalysis" : "第二列数据主要为'件'，符合商品销售中对数量的描述。",
+      "contentAnalysis" : "数据内容一致，均为'件'，表明这是一个描述商品数量的字段。",
+      "contextVerification" : "结合上下文信息，如'已售 1566 件'，进一步确认该字段为单位字段。",
+      "otherAnalysis" : "无其他异常或特殊情况。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据值均为'件'，格式一致，无异常。",
+      "contentAnalysis" : "内容均为'件'，无内容异常。",
+      "contextVerification" : "上下文信息支持'件'作为单位字段，无异常。",
+      "otherAnalysis" : "无其他异常或特殊情况。"
+    }
+  }
+}

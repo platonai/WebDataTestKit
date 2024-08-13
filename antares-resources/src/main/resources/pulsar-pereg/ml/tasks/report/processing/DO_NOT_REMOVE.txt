@@ -1,0 +1,1 @@
+Do not remove the files since they are open in the browser

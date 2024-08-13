@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0: 包装", "1: 包装", "2: 包装", "3: 包装", "4: 包装", "5: 包装", "6: 包装", "7: 包装", "8: 包装", "9: 包装", "190: 包装", "191: 包装", "192: 包装", "193: 包装", "194: 包装", "195: 包装", "196: 包装", "197: 包装", "198: 包装", "199: 包装" ],
+  "namingTask" : {
+    "fieldName" : "包装描述",
+    "datasetName" : "网页DOM元素文本内容数据集",
+    "analysis" : {
+      "formatAnalysis" : "该列数据主要由'包装'一词组成，推测是对商品包装的描述。",
+      "contentAnalysis" : "内容主要为商品包装的详细描述，包括包装材料、颜色、尺寸等信息。",
+      "contextVerification" : "上下文信息支持该列为商品包装的描述，与商品详情、用户评价等信息相关联。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据均符合预期格式，无异常。",
+      "contentAnalysis" : "内容均符合包装描述的预期，无异常。",
+      "contextVerification" : "上下文信息一致，无异常。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  }
+}

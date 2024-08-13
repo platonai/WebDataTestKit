@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:￥", "1:￥", "2:￥", "3:￥", "4:￥", "5:￥", "6:￥", "7:￥", "8:￥", "9:￥", "30:￥", "31:￥", "32:￥", "33:￥", "34:￥", "35:￥", "36:￥", "37:￥", "38:￥", "39:￥" ],
+  "namingTask" : {
+    "fieldName" : "价格符号",
+    "datasetName" : "鲜花价格数据集",
+    "analysis" : {
+      "formatAnalysis" : "所有样本均以'￥'符号开头，符合货币符号的格式。",
+      "contentAnalysis" : "该列数据主要用于表示货币单位，与价格相关。",
+      "contextVerification" : "上下文信息中多次提到价格和购买，验证了该列的货币符号用途。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据均符合货币符号的格式，无格式异常。",
+      "contentAnalysis" : "内容均为货币符号，无内容异常。",
+      "contextVerification" : "上下文信息支持该列数据的货币符号属性，无异常。",
+      "otherAnalysis" : "无其他异常。"
+    }
+  }
+}

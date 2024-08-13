@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:尤加利叶若干支（不要空隙）", "1:尤加利叶12枝", "2:尤加利叶若干支（不要空隙）", "3:尤加利叶大叶若干支", "4:等待着我们说好的永远" ],
+  "namingTask" : {
+    "fieldName" : "花材描述",
+    "datasetName" : "鲜花销售数据集",
+    "analysis" : {
+      "formatAnalysis" : "第二列数据主要描述了鲜花的具体材料，如尤加利叶的数量和特征。",
+      "contentAnalysis" : "数据内容与鲜花销售相关，描述了不同鲜花的组成材料。",
+      "contextVerification" : "数据来自鲜花销售网页，与鲜花材料描述相符。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据值均符合预期格式，描述了鲜花的具体材料。",
+      "contentAnalysis" : "数据内容与预期字段名称（花材描述）相符，没有发现异常内容。",
+      "contextVerification" : "数据内容与上下文信息（鲜花销售）一致，没有发现异常。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  }
+}

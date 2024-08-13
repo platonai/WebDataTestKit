@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:商品详情", "1:商品详情", "2:商品详情", "3:商品详情", "4:商品详情", "5:商品详情", "6:商品详情", "7:商品详情", "8:商品详情", "9:商品详情", "230:商品详情", "231:商品详情", "232:商品详情", "233:商品详情", "234:商品详情", "235:商品详情", "236:商品详情", "237:商品详情", "238:商品详情", "239:商品详情" ],
+  "namingTask" : {
+    "fieldName" : "商品详情",
+    "datasetName" : "商品信息数据集",
+    "analysis" : {
+      "formatAnalysis" : "第二列数据均为‘商品详情’，格式一致。",
+      "contentAnalysis" : "内容均为‘商品详情’，符合预期。",
+      "contextVerification" : "上下文信息支持‘商品详情’的描述。",
+      "otherAnalysis" : "无其他异常。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据格式一致，无异常。",
+      "contentAnalysis" : "内容均为‘商品详情’，无异常。",
+      "contextVerification" : "上下文信息支持‘商品详情’的描述，无异常。",
+      "otherAnalysis" : "无其他异常。"
+    }
+  }
+}

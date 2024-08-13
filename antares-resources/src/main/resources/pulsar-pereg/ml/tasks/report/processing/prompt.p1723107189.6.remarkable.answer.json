@@ -1,0 +1,19 @@
+"naming_task": {
+    "field_name": "价格",
+    "dataset_name": "鲜花价格数据集",
+    "analysis": {
+      "format_analysis": "第二列数据主要由人民币符号（￥）和数字组成，符合价格格式。",
+      "content_analysis": "数据内容为各种鲜花产品的价格，反映了不同鲜花的定价情况。",
+      "context_verification": "数据集中的其他列提供了鲜花的名称、描述和数量等信息，与价格列形成了完整的上下文关系。",
+      "other_analysis": "无"
+    }
+  },
+  "outliers_detection": {
+    "outliers": "￥8266",
+    "analysis": {
+      "format_analysis": "数据格式与其他价格数据一致，均为人民币符号加数字。",
+      "content_analysis": "￥8266明显高于其他价格，可能是数据录入错误或特殊高价值产品。",
+      "context_verification": "在上下文中，该价格对应的鲜花产品描述并不特别突出，因此该价格显得异常。",
+      "other_analysis": "需要进一步核实该价格的真实性和合理性。"
+    }
+  }

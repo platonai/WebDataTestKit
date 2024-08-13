@@ -1,0 +1,22 @@
+{
+  "samples" : [ "0:立即购买", "1:立即购买", "2:立即购买", "3:立即购买", "4:立即购买", "5:立即购买", "6:立即购买", "7:立即购买", "8:立即购买", "9:立即购买", "90:立即购买", "91:立即购买", "92:立即购买", "93:立即购买", "94:立即购买", "95:立即购买", "96:立即购买", "97:立即购买", "98:立即购买", "99:立即购买" ],
+  "namingTask" : {
+    "fieldName" : "按钮文本",
+    "datasetName" : "网页DOM元素文本内容",
+    "analysis" : {
+      "formatAnalysis" : "该列数据均为按钮文本，格式一致。",
+      "contentAnalysis" : "内容均为‘立即购买’，符合预期。",
+      "contextVerification" : "上下文信息支持该列为按钮文本的推断。",
+      "otherAnalysis" : "无其他特殊分析。"
+    }
+  },
+  "outliersDetection" : {
+    "outliers" : [ ],
+    "analysis" : {
+      "formatAnalysis" : "所有数据格式一致，无异常。",
+      "contentAnalysis" : "内容均为‘立即购买’，无异常。",
+      "contextVerification" : "上下文信息支持该列为按钮文本的推断，无异常。",
+      "otherAnalysis" : "无其他异常。"
+    }
+  }
+}
